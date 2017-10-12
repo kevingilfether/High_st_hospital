@@ -21,10 +21,11 @@ namespace High_st_hospital
 
         }
 
-        public Nurse(string employeeName, int employeeNum, string department)
+        public Nurse(string employeeName, int employeeNum, string department, int numOfPatients)
         {
             this.employeeName = employeeName;
             this.employeeNum = employeeNum;
             this.department = department;
+            this.numOfPatients = numOfPatients;
         }
 }
