@@ -63,6 +63,5 @@ namespace High_st_hospital
                 }
             }
         }
-        public static void
     }
 }
