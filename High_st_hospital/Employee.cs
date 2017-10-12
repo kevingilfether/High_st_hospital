@@ -35,6 +35,6 @@ namespace High_st_hospital
             this.employeeName = employeeName;
             this.employeeNum = employeeNum;
         }
-
     }
+
 }
