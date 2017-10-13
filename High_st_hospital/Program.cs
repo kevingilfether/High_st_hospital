@@ -19,7 +19,7 @@ namespace High_st_hospital
 
             //copy for hospital management system
             Console.WriteLine("Welcome to High St. Hospital Personnel Managment System.");
-            Console.WriteLine("(HSHPMS");
+            Console.WriteLine("(HSHPMS)");
             Console.WriteLine();
 
             Console.WriteLine("What do you want to do?");
@@ -32,6 +32,7 @@ namespace High_st_hospital
 
             while (!isDoneAdding)
             {
+                Console.WriteLine();
                 Console.WriteLine("Add an Employee");
                 Console.WriteLine("What kind of employee do you want to add?");
                 Console.Write("DOCTOR - SURGEON - NURSE - RECEPTIONIST - OTHER");

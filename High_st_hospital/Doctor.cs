@@ -27,4 +27,5 @@ namespace High_st_hospital
             this.employeeNum = employeeNum;
             this.specialtyArea = specialtyArea;
         }
+    }
 }

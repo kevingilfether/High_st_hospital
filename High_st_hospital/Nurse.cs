@@ -28,4 +28,5 @@ namespace High_st_hospital
             this.department = department;
             this.numOfPatients = numOfPatients;
         }
+    }
 }
