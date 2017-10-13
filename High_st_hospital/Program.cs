@@ -28,16 +28,16 @@ namespace High_st_hospital
 
             bool isDoneAdding = true;
             if (action == "ADD")
-                isDoneAdding = false; 
+                isDoneAdding = false;
 
             while (!isDoneAdding)
             {
                 Console.WriteLine();
                 Console.WriteLine("Add an Employee");
                 Console.WriteLine("What kind of employee do you want to add?");
-                Console.Write("DOCTOR - SURGEON - NURSE - RECEPTIONIST - OTHER");
+                Console.Write("DOCTOR - SURGEON - NURSE - RECEPTIONIST - OTHER - DONE");
                 string employeeType = Console.ReadLine().Trim().ToUpper();
-                switch(employeeType)
+                switch (employeeType)
                 {
                     case "DOCTOR":
                         Console.WriteLine("What is the employee's name?");
@@ -56,6 +56,9 @@ namespace High_st_hospital
                         break;
 
                     case "RECEPTIONIST":
+                        break;
+
+                    case "DONE":
                         break;
 
                     default:
